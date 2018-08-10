@@ -1,0 +1,385 @@
+.bod {
+	margin: 0;
+	background-image: url('bgf.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.intro {
+	font-weight: bold;
+	margin: auto;
+	padding: 2rem;
+	width: 45%;
+	line-height: 1.7vw;
+	animation: box 5s;
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+@keyframes box{
+	0% {opacity: 0.0;}
+	100% {opacity: 1.0;}
+}
+.ani1 {
+	animation: anim1 2s;
+	letter-spacing: 1vw;
+	text-align: center;
+	color: white;
+	font-size: 4vw;
+	font-weight: bolder;
+	margin-top: 2.6vw;
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+.ani2 {
+	animation: anim2 2s;
+	text-align: center;
+	letter-spacing: 1vw;
+	color: white;
+	font-size: 4vw;
+	font-weight: bolder;
+	margin-top: 2vw;
+	margin-bottom: 2.5vw;
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+@keyframes anim1 {
+	0% {opacity: 0.0;}
+	10% {opacity: 0.0;}
+	20% {opacity: 0.0;}
+	25% {opacity: 0.2;}
+	30% {opacity: 0.4;}
+	30% {opacity: 0.5;}
+	40% {opacity: 0.6;}
+	60% {opacity: 0.7;}
+	80% {opacity: 0.8;}
+	90% {opacity: 0.9;}
+	100% {opacity: 1.0;}
+}
+@keyframes anim2 {
+	0% {opacity: 0.0;}
+	10% {opacity: 0.0;}
+	20% {opacity: 0.0;}
+	25% {opacity: 0.0;}
+	30% {opacity: 0.0;}
+	30% {opacity: 0.0;}
+	40% {opacity: 0.2;}
+	60% {opacity: 0.5;}
+	80% {opacity: 0.7;}
+	90% {opacity: 0.9;}
+	100% {opacity: 1.0;}	
+}
+.sty {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	animation: intr 5s;
+	color: white;
+	font-size: 1.5vw;
+}
+@keyframes intr {
+	0% {opacity: 0.0;}
+	100% {opacity: 1;}
+}
+.homeButtona {
+	text-decoration: none;
+} 	
+.homeButton {
+	background-color: #ff4500;
+	padding-top: 0.6vw;
+	border-width: 0;
+	font-weight: bolder;
+	border-radius: 0.5vw;
+	padding-bottom: 0.6vw;
+	padding-right: 0;
+	font-size: 2vw;
+	padding-left: 0;
+	width: 10vw; 
+	text-decoration: none;
+	color: white;
+	animation: but 2s;
+	font-family: Consolas, monaco, monospace;
+	transition: all 0.5s;
+}
+.homeButton .homeButtonSpan {
+	transition: 0.5s;
+	position: relative;
+}
+.homeButton .homeButtonSpan:after {
+	content: '\00bb';
+ 	position: absolute;
+ 	opacity: 0;
+ 	top: 0;
+ 	right: -20px;
+ 	transition: 0.5s;
+}
+.homeButton:hover .homeButtonSpan {
+  padding-right: 25px;
+}
+
+.homeButton:hover .homeButtonSpan:after {
+  opacity: 1;
+  right: 0;
+}
+.entbtn {
+	margin-left: 45vw;
+	margin-top: 0;
+	margin-bottom: 0vw;
+}
+@keyframes but{
+	0% {opacity: 0.0;}
+	100% {opacity: 1.0;}
+}
+.homeButton:hover {
+	color: #ff4500	;
+	cursor: pointer;
+	background-color: white;
+}
+.eh {
+	font-size: 5.7vw;
+}
+		@font-face {
+			font-family: preet;
+			src: url('Shojumaru-Regular.ttf');
+		}
+		@font-face {
+			font-family: preetu;
+			src: url('AlegreyaSansSC-Medium.ttf');
+		}
+		@font-face {
+			font-family: preetuu;
+			src: url('Lobster-Regular.ttf');
+		}
+		@font-face {
+			font-family: preetuuu;
+			src: url('Carme-Regular.ttf');
+		}
+		.bod1 {
+			margin: 0;
+			background-repeat: no-repeat;
+			background-image: url('1719');
+			background-size: cover;
+		}
+		.ese {
+			font-family: preet;
+			text-align: center;
+			font-size: 4vw;
+			margin-bottom: 1.5vw;	
+		}
+		.hor {
+			color: black;
+			border-width: 3px;
+		}
+		#ese0 {
+			font-family: preetu;
+			text-align: center;
+			font-size: 2vw;
+			font-weight: bold;
+			word-spacing:0.6vw;
+		}
+		.butt {
+			background-color: transparent;
+			border-color: black;
+			border-top-left-radius: 1.9vw;
+			border-bottom-left-radius: 1.9vw;
+			border-top-right-radius: 1.9vw;
+			border-bottom-right-radius: 1.9vw;
+			padding: 0.5vw 2.0vw 0.5vw 2vw;
+			margin-left: 3vw;
+			margin-bottom: 1.7vw;
+			outline: 0;
+		}
+		.bucon {
+			font-size: 23px;
+			font-weight: bold;
+			color: black;
+			outline: 0;
+			font-family: preetuu;
+		}
+		#ese1 {
+			font-family: preetuuu;
+			text-align: center;
+			font-size: 2vw;
+			margin-left: 5vw;
+			margin-right: 5vw;
+			font-weight: bold;
+		}
+		#ese2 {
+			font-family: preetuuu;
+			text-align: center;
+			font-size: 2vw;
+			margin-left: 5vw;
+			margin-right: 5vw;
+			font-weight: bold;
+		}
+		#ese3 {
+			font-family: preetuuu;
+			text-align: center;
+			font-size: 2vw;
+			margin-left: 3vw;
+			margin-right: 3vw;
+			font-weight: bold;
+		}
+		#ese4 {
+			font-family: preetuuu;
+			text-align: center;
+			font-size: 2vw;
+			margin-left: 3vw;
+			margin-right: 3vw;
+			font-weight: bold;
+		}
+		#ese5 {
+			font-family: preetuuu;
+			text-align: center;
+			font-size: 2vw;
+			margin-left: 3vw;
+			margin-right: 3vw;
+			font-weight: bold;
+		}
+.navbar {
+                        background-color: #000000;
+                        padding-top: 1vw;       
+                        margin-top: 0;
+                        margin-bottom: 0vw;     
+                        padding-bottom: 1vw;
+                        position: fixed;
+                        width: 100%;
+                }
+                .navbar a {
+                        display: block;
+                        margin-left: 9.5vw;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 1.7vw;
+                        font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+                        float: left;
+                        text-align: center;
+                        text-decoration: none;
+                }
+                .active {
+                        color: #ffd780;
+                }
+                .navbar a:hover {
+                        color: #7fffd4;
+                }
+		.bod2 {
+			background-image: url('intb.jpg');
+			margin: 0;
+			background-size: cover;
+		}
+		.abtme {
+			color: white;
+			font-size: 3vw;
+			margin-bottom: 0;
+			margin-left: 39vw;
+			letter-spacing: 5px;
+			text-decoration: underline;
+			font-weight: bolder;
+			font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+		}	
+		.underline {
+			padding-bottom: 5px;
+		}
+		.hs {
+			padding-left: 5vw;
+			color: #ffa500;
+			font-size: 2.4vw;
+			font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+		}
+		.li1 {
+			padding-left: 5.3vw;
+		}
+		.hs1 {
+			font-family: Tahoma, Verdana, Segoe, sans-serif;
+			color: white;
+			font-size: 1.6vw;
+		}
+		.hs2 {
+			color: white;
+			list-style-type: square;
+		}
+.bodg {
+  background-image: url('1719');
+  margin: 0;
+  background-size: cover;
+}
+div.gallery {
+    margin: auto;
+    width: 380px;
+    margin-bottom: 1.7em;
+}
+div.gallery:hover {
+    border: 3px solid black;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px ;
+    text-align: center;
+    font-size: 2vw;
+}
+
+div.gallery1 {
+    margin-left: 13%;
+    margin-right: 0;
+    float: left;
+    width: 380px;
+    margin-bottom: 3em;
+}
+div.gallery1:hover {
+    border: 3px solid black;
+    margin-bottom: 42px;
+}
+div.gallery1 img {
+  width: 100%;
+  height: auto;
+}
+div.gallery2 {
+    margin-right: 13%;
+    float: right;
+    width: 380px;
+    margin-bottom: 3.4em;
+}
+div.gallery2:hover {
+    border: 3px solid black;
+}
+div.gallery2 img {
+  width: 100%;
+  height: auto;
+}
+img {
+    image-orientation: from-image;
+}
+.top {
+      margin-top: 1em;
+      margin-bottom: 2em;
+      font-size: 30px;
+      text-align: center;  
+    }
+.bodc {
+		margin: 0;
+		background-color: white;
+	}	
+.cme {
+			margin-top: 0;
+			padding-left: 0.8vw;
+		}
+		.icon {
+			margin-left: 22vw;
+			width: 6vw;
+			height: 6vw;	
+		}
+		.vc {
+			margin-left: -17%;
+		}
+		.tdata {
+			padding-left: 2em;
+			font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+			font-size: 30px;
+		}
+		.typerwriter {
+			overflow: hidden;
+			white-space: nowrap;
+			font-size: 0.9em;
+			animation: typing 0.7s steps(750,end)
+		}
+		@keyframes typing 
+		{
+			from {width: 0%}
+			to {width: 100%}	
+		} 

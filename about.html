@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Preet Thakkar</title>
+	<link rel="stylesheet" href="pstyles.css">
+	<script>
+		function chood() {
+		document.getElementById('ese2').innerHTML = 'I, Preet Thakkar, was born on 21 March, 2000 to a Gujarati family in a city named Patan located in North Gujarat. The first stage of my life, so called "childhood", was definitely more than just a learning experience. The best thing about childhood is that we have no worries/anxieties. The thing which has made my childhood memorable is the love and affection of my family members. 	';
+		document.getElementById('ccon').style.color = 'white';
+		document.getElementById('choodd').style.backgroundColor = 'black';
+		document.getElementById('eduu').style.backgroundColor = 'transparent';	
+		document.getElementById('nevee').style.backgroundColor = 'transparent';
+		document.getElementById('econ').style.color = 'black';
+		document.getElementById('ncon').style.color = 'black';
+		document.getElementById('ese3').innerHTML = '';
+		document.getElementById('ese4').innerHTML = '';
+		document.getElementById('ese5').innerHTML = '';
+		}
+		function edu() {
+		document.getElementById('ese2').innerHTML = 'I began my schooling at Bhagwati International Public Scool in Patan. I studied there till 4th class. Later, in 2009, my family members wanted me to attend a better school and so I joined Divine Child School located in Mehsana (around 50 kms from Patan). Initially I refused to join this school as I had to live there as a boarding student. However, things went pretty much well and I realise it now that joining this institution was a perfect decision. I completed my matriculation there. In 2015, I went Kota to prepare for JEE. There, I joined Resonance coaching institute. It took time for me to get used to the challenging curriculum of Kota. Finally, after 2 years of hard work I cracked IIT-JEE exam in 2017 and joined IIIT.';
+		document.getElementById('econ').style.color = 'white';	
+		document.getElementById('eduu').style.backgroundColor = 'black';
+		document.getElementById('choodd').style.backgroundColor = 'transparent';
+		/*document.getElementById('birthh').style.backgroundColor = 'transparent';	*/
+		document.getElementById('nevee').style.backgroundColor = 'transparent';
+		document.getElementById('ccon').style.color = 'black';
+		/*document.getElementById('bcon').style.color = 'black';*/
+		document.getElementById('ncon').style.color = 'black';
+		document.getElementById('ese3').innerHTML = '';
+		document.getElementById('ese4').innerHTML = '';
+		document.getElementById('ese5').innerHTML = '';
+		}
+		function neve() {
+		document.getElementById('ese2').innerHTML = 'Cleared JEE (Mains) with a score of 278/360 and AIR 869.';
+		document.getElementById('ese3').innerHTML = 'Cleared JEE (Advanced) with a score of 236/366 and AIR 2562.';
+		document.getElementById('ese4').innerHTML = 'Scored 91.8% in 12th CBSE board exams.';
+		document.getElementById('ese5').innerHTML = 'Currently pursuing B.Tech in CSE at IIIT Hyderabad.';
+		document.getElementById('ncon').style.color = 'white';
+		document.getElementById('nevee').style.backgroundColor = 'black';
+		document.getElementById('choodd').style.backgroundColor = 'transparent';
+		document.getElementById('eduu').style.backgroundColor = 'transparent';	
+		/*document.getElementById('birthh').style.backgroundColor = 'transparent';*/
+		document.getElementById('ccon').style.color = 'black';
+		document.getElementById('econ').style.color = 'black';
+		}
+	</script>
+</head>
+<body class="bod1">
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<a href="about.html"><span class="active">Basic Info</span></a>
+		<a href="interests.html">Interests</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="contact.html">Contact Me</a>
+	</div>
+	<br>
+	<p class="ese">Preet Thakkar ...</p>
+	<hr class="hor">
+	<p id="ese0">What's up, Dear Reader. I am Preet Thakkar, a Computer Science student at IIIT Hyderabad.	</p>	
+	<hr class="hor">
+	<div>
+	<button type="button" class="butt" onclick="chood()" id="choodd"><span class="bucon" id="ccon">Childhood</span></button>
+	<button type="button" class="butt" onclick="edu()" id="eduu"><span class="bucon" id="econ">Education</span></button>
+	<button type="button" class="butt" onclick="neve()" id="nevee"><span class="bucon" id="ncon">Notable Events</span></button>
+	</div>
+	<p id="ese2"></p>
+	<p id="ese3"></p>
+	<p id="ese4"></p>
+	<p id="ese5"></p>
+</body>
+</html>
